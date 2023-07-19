@@ -1,0 +1,202 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<link href="style.css" rel="stylesheet" type="text/css"/> 
+<title>Resaltador de sintaxis</title> 
+</head> 
+<body> 
+<text class='comment'>//Importación</text> 
+<text class='comment'>de</text> 
+<text class='comment'>librerias</text> 
+<br> 
+<text class='caracter'>#</text> 
+<text class='otro'>include</text> 
+<text class='otro'><iostream></text> 
+<br> 
+<text class='palabraClave'>using</text> 
+<text class='otro'>namespace</text> 
+<text class='otro'>std</text> 
+<text class='caracter'>;</text> 
+<br> 
+<br> 
+<text class='comment'>//Declaración</text> 
+<text class='comment'>de</text> 
+<text class='comment'>función</text> 
+<br> 
+<text class='keyword'>int</text> 
+<text class='funcion'>sumar</text> 
+<text class='caracter'>(</text> 
+<text class='keyword'>int</text> 
+<text class='variable'>num1</text><text class='caracter'>,</text> 
+<text class='keyword'>int</text> 
+<text class='variable'>num2</text><text class='caracter'>)</text> 
+<text class='caracter2'>{</text> 
+<br> 
+<text class='keyword'>int</text> 
+<text class='variable'>resultado</text><text class='caracter'>=</text> 
+<text class='otro'>num1</text> 
+<text class='operacion'>+</text> 
+<text class='otro'>num2</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='palabraClave'>return</text> 
+<text class='otro'>resultado</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='caracter2'>}</text> 
+<br> 
+<br> 
+<text class='keyword'>int</text> 
+<text class='funcion'>main</text> 
+<text class='caracter'>()</text> 
+<text class='caracter2'>{</text> 
+<br> 
+<text class='comment'>//Implementación</text> 
+<text class='comment'>de</text> 
+<text class='comment'>operaciones</text> 
+<br> 
+<text class='operacion'>+</text> 
+<text class='num'>4.5</text> 
+<text class='num'>5.8</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='operacion'>-</text> 
+<text class='num'>10</text> 
+<text class='num'>5</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='operacion'>*</text> 
+<text class='num'>2</text> 
+<text class='num'>15</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='operacion'>/</text> 
+<text class='num'>30</text> 
+<text class='num'>15</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='operacion'>^</text> 
+<text class='num'>2</text> 
+<text class='num'>3</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='operacion'>%</text> 
+<text class='num'>4</text> 
+<text class='num'>3</text> 
+<text class='caracter'>;</text> 
+<br> 
+<br> 
+<text class='comment'>//Manejo</text> 
+<text class='comment'>de</text> 
+<text class='comment'>variables</text> 
+<br> 
+<text class='keyword'>int</text> 
+<text class='variable'>a</text><text class='caracter'>=</text> 
+<text class='num'>5</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='keyword'>int</text> 
+<text class='variable'>b</text><text class='caracter'>=</text> 
+<text class='num'>3</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='keyword'>float</text> 
+<text class='variable'>c</text><text class='caracter'>=</text> 
+<text class='num'>5.2</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='keyword'>string</text> 
+<text class='variable'>d</text><text class='caracter'>=</text> 
+<text class='string'>"Hola"</text> 
+<text class='caracter'>;</text> 
+<br> 
+<br> 
+<text class='comment'>//Implementación</text> 
+<text class='comment'>de</text> 
+<text class='comment'>función</text> 
+<br> 
+<text class='keyword'>int</text> 
+<text class='variable'>suma</text><text class='caracter'>=</text> 
+<text class='otro'>sumar</text> 
+<text class='caracter'>(</text> 
+<text class='variable'>a</text> 
+<text class='caracter'>,</text> 
+<text class='variable'>b</text> 
+<text class='caracter'>)</text> 
+<text class='caracter'>;</text> 
+<br> 
+<br> 
+<text class='palabraClave'>cout</text> 
+<text class='caracter2'><<</text> 
+<text class='string'>"La</text> 
+<text class='string'>suma</text> 
+<text class='string'>es:"</text> 
+<text class='caracter2'><<</text> 
+<text class='otro'>suma</text> 
+<text class='caracter2'><<</text> 
+<text class='palabraClave'>endl</text> 
+<text class='caracter'>;</text> 
+<br> 
+<br> 
+<text class='comment'>//Implementación</text> 
+<text class='comment'>ciclos</text> 
+<br> 
+<text class='loop'>for</text> 
+<text class='caracter'>(</text> 
+<text class='keyword'>int</text> 
+<text class='variable'>i</text><text class='caracter'>=</text> 
+<text class='num'>0</text> 
+<text class='caracter'>;</text> 
+<text class='variable'>i</text> 
+<text class='otro'><</text> 
+<text class='num'>10</text> 
+<text class='caracter'>;</text> 
+<text class='variable'>i</text> 
+<text class='caracter'>++</text> 
+<text class='caracter'>)</text> 
+<text class='caracter2'>{</text> 
+<br> 
+<text class='palabraClave'>cout</text> 
+<text class='caracter2'><<</text> 
+<text class='variable'>i</text> 
+<text class='caracter2'><<</text> 
+<text class='palabraClave'>endl</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='caracter2'>}</text> 
+<br> 
+<br> 
+<text class='keyword'>int</text> 
+<text class='variable'>j</text><text class='caracter'>=</text> 
+<text class='num'>0</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='loop'>while</text> 
+<text class='caracter'>(</text> 
+<text class='variable'>j</text> 
+<text class='otro'><</text> 
+<text class='num'>10</text> 
+<text class='caracter'>)</text> 
+<text class='caracter2'>{</text> 
+<br> 
+<text class='palabraClave'>cout</text> 
+<text class='caracter2'><<</text> 
+<text class='variable'>j</text> 
+<text class='caracter2'><<</text> 
+<text class='palabraClave'>endl</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='variable'>j</text> 
+<text class='caracter'>++</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='caracter2'>}</text> 
+<br> 
+<br> 
+<text class='palabraClave'>return</text> 
+<text class='num'>0</text> 
+<text class='caracter'>;</text> 
+<br> 
+<text class='caracter2'>}</text> 
+</body> 
+</html>

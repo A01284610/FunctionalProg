@@ -1,0 +1,6 @@
+b = 7
+b = -a
+b = 79.2
+f = 3 + 5 + v + 2.3 - f -23
+a = 32.4 *(-8.6 - b) /   6.1E-8
+d = a ^ b // Esto es un comentario

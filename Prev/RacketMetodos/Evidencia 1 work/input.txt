@@ -1,0 +1,2 @@
+int a = 2 // hola 123 int
+float b = 5.2 //
